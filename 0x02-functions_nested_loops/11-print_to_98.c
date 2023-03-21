@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include "stdio.h"
 /**
  * print_to_98 - function with one argument
  * @n: first operand
