@@ -1,10 +1,9 @@
-#include "main.h"
-#include "stdio.h"
+#include <stdio.h>
+
 /**
- * print_to_98 - function with one argument
- * @n: first operand
- *
- * Description: Print all natural numbers from n to 98
+ * print_to_98 - Prints all natural numbers from input to 98,
+ *               in order separated by a comma followed by a space.
+ * @n: The number to begin counting at.
  */
 void print_to_98(int n)
 {
