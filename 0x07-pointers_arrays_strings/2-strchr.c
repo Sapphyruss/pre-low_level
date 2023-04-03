@@ -8,7 +8,7 @@
  * return NULL if the character is not found 
  */
 
-char *_strchar(char *s, char c)
+char *_strchr(char *s, char c)
 {
 	while (*S)
 	{
