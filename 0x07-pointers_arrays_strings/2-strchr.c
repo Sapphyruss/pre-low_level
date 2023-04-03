@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * - strchar - locates a character in a string
  * @s : the string to check
