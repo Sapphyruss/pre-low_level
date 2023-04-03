@@ -1,20 +1,21 @@
 #include "main.h"
 /**
- * _memset - is a function with 3 arguments
- * @s: char type pointer 1st argument
- * @b: char type 2nd argument
- * @n: int type unsigned 3rd argument
+ * _memset - fills memory with a constant byte
  *
- * Description: fills memory with a constant byte
- * Return: a pointer to the memory area
+ * @s: pointer to memory area to fill
+ * @n: the number of bytes to fill
+ * @b: is the constant byte
+ *
+ * Return: a pointer to the memory area @s
  */
-void *_memset(void *s, int c, size_t n)
+char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int index;
-	unsigned char *memory = s, value = c;
+	unsigned int i;
 
-	for (index = 0; index < n; index++)
-		memory[index] = value;
+	for (i = 0; i < n; i++)
+	{
+		s[i] = b;
+	}
 
-	return (memory);
+	return (s);
 }
