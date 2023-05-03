@@ -5,9 +5,10 @@
  * @head: pointer to first node of linked list
  * @index: nth node
  *
- * Description: returns the n'th node of linked list
- * Return NULL if node does not exist
+ * Description: returns the nth node of linked list
+ * Return NULL if the node does not exist
  */
+
 listint_t *get_nodeint_at_index(listint_t *head, unsigned int index)
 {
 	unsigned int n = 0;
