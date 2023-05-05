@@ -1,5 +1,5 @@
 /**
- * get_endianness - return the endianness of the machine
+ * get_endianness - check the endianness
  *
  * return 0 if big endian, 1 if little endian
  */
